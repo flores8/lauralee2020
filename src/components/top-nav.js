@@ -6,8 +6,7 @@ import "./top-nav.css"
 const navLayout = {
   maxWidth: "1100px",
   width: "100%",
-  paddingTop: "1rem",
-  paddingBottom: "1rem",
+  padding: "1rem 1rem 1rem 0",
   margin: "auto",
   display: "grid",
   alignItems: "center",
