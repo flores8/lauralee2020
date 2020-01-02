@@ -38,7 +38,7 @@ const TopNav = ({ siteTitle }) => (
         </Link>
       </div>
       <div class="link-wrapper" style={linkWrapper}>
-        <Link to="page-2" activeStyle={activeStyles}>
+        <Link to="about" activeStyle={activeStyles}>
           About
         </Link>
       </div>
