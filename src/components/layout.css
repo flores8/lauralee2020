@@ -628,3 +628,24 @@ footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.home-page p {
+  font-size: 20px;
+}
+.home-page p a {
+  color: hsla(228, 2%, 40%, 1);
+  /* border-bottom: 4px solid hsla(357, 85%, 64%, 0.5); */
+  text-decoration: none;
+  background: linear-gradient(
+    to bottom,
+    hsla(357, 85%, 64%, 0.4),
+    hsla(357, 85%, 64%, 0.4)
+  );
+  background-position: 0% 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  transition: background-size 0.3s;
+}
+.home-page p a:hover {
+  color: hsla(228, 2%, 40%, 1);
+  background-size: 4px 50px;
+}
