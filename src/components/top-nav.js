@@ -16,7 +16,7 @@ const linkWrapper = {
   textAlign: "right",
 }
 const activeStyles = {
-  borderBottom: "4px solid hsla(357, 85%, 64%, 1)",
+  borderBottom: "3px solid hsla(357, 85%, 64%, 1)",
 }
 
 const TopNav = ({ siteTitle }) => (
