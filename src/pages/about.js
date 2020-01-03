@@ -68,8 +68,18 @@ const About = () => (
         </p>
       </div>
       <div class="about-cta">
-        <Link to="/">View my resume</Link>
-        <Link to="/">Send me an email</Link>
+        <a
+          href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf"
+          target="_blank"
+        >
+          View my resume
+        </a>
+        <a
+          href="mailto:lauralee@lauraleeflores.com?Subject=Website%20inquiry"
+          target="_top"
+        >
+          Send me an email
+        </a>
       </div>
     </div>
   </Layout>
