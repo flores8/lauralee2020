@@ -29,7 +29,7 @@ const About = () => (
       <div class="skinny-wrapper">
         <p>
           I’m a Product Designer. I have been very happily working remotely
-          since 2009. In 2007 I graduated with a masters degree in
+          since 2008. In 2007 I graduated with a masters degree in
           Human-Computer Interaction. I ran a usability team as well as
           developed and taught courses on user center design and user research
           methods.
