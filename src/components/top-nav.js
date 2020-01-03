@@ -10,7 +10,8 @@ const navLayout = {
   margin: "auto",
   display: "grid",
   alignItems: "center",
-  gridTemplateColumns: "3fr minmax(50px, 100px) minmax(50px, 100px)",
+  gridTemplateColumns:
+    "3fr minmax(50px, 100px) minmax(50px, 100px) minmax(50px, 100px)",
 }
 const linkWrapper = {
   textAlign: "right",
@@ -41,6 +42,14 @@ const TopNav = ({ siteTitle }) => (
         <Link to="about" activeStyle={activeStyles}>
           About
         </Link>
+      </div>
+      <div class="link-wrapper" style={linkWrapper}>
+        <a
+          href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf"
+          target="_blank"
+        >
+          Resume
+        </a>
       </div>
     </nav>
   </header>
