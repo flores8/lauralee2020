@@ -31,7 +31,7 @@ const About = () => (
           since 2008. In 2007 I graduated with a masters degree in
           Human-Computer Interaction. I ran a usability team as well as
           developed and taught courses on user center design and user research
-          methods.
+          methods at two different Universities - both in person and online.
         </p>
         <p>
           A lot of my work since 2007 has been related to product design. I
@@ -62,7 +62,7 @@ const About = () => (
         <p>
           In addition to design, I love to create products. I can create pretty
           much any design in HTML and CSS. I have experience with Javascript and
-          Ruby on Rails. I created this website in Gatsbyjs and React. I am
+          Ruby on Rails. I created this website in Gatsby and React. I am
           currently starting a new project called CSS Academy.
         </p>
       </div>
