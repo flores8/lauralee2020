@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "./top-nav.css"
+import "./links.css"
 
 const navLayout = {
   maxWidth: "1100px",
@@ -10,8 +10,7 @@ const navLayout = {
   margin: "auto",
   display: "grid",
   alignItems: "center",
-  gridTemplateColumns:
-    "3fr minmax(50px, 100px) minmax(50px, 100px) minmax(50px, 100px)",
+  gridTemplateColumns: "3fr repeat(3, minmax(50px, 100px))",
 }
 const linkWrapper = {
   textAlign: "right",
@@ -44,10 +43,7 @@ const TopNav = ({ siteTitle }) => (
         </Link>
       </div>
       <div class="link-wrapper" style={linkWrapper}>
-        <a
-          href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf"
-          target="_blank"
-        >
+        <a href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf">
           Resume
         </a>
       </div>

@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import TopNav from "./top-nav"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -18,9 +19,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <TopNav siteTitle={data.site.siteMetadata.title} />
-      <div class="layout-wrapper" >
+      <div class="layout-wrapper">
         <main>{children}</main>
-        <footer>© {new Date().getFullYear()}</footer>
+        <Footer />
       </div>
     </>
   )

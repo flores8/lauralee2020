@@ -610,12 +610,6 @@ pre tt:after {
   padding: 0px 0.6rem 1.45rem;
   padding-top: 0px;
 }
-footer {
-  text-align: center;
-  font-size: 0.7rem;
-  color: hsla(228, 2%, 40%, 1);
-  margin-top: 4rem;
-}
 
 /* Home Page Styles */
 @media (min-width: 845px) {

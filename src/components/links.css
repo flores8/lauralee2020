@@ -1,23 +1,35 @@
-nav .link-wrapper a {
+.link-wrapper a {
   text-decoration: none;
   color: hsla(228, 2%, 40%, 1);
   font-size: 15px;
   text-align: right;
-  padding-bottom: 2px;
   transition: 0.3s;
   border-bottom: 3px solid transparent;
   display: inline-block;
 }
-nav .link-wrapper a::after {
+nav .link-wrapper a {
+  padding-bottom: 2px;
+}
+footer .link-wrapper a {
+  padding-bottom: 0;
+  line-height: 1.2;
+  color: hsla(228, 2%, 60%, 1);
+}
+footer .link-wrapper a:hover {
+  color: hsla(228, 2%, 40%, 1);
+}
+.link-wrapper a::after {
   content: "";
   display: block;
   width: 0%;
   height: 3px;
   background: hsla(357, 85%, 64%, 1);
   transition: width 0.3s;
+}
+nav .link-wrapper a::after {
   position: relative;
   top: 5px;
 }
-nav .link-wrapper a:hover::after {
+.link-wrapper a:hover::after {
   width: 100%;
 }

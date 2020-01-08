@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Image from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -68,10 +67,7 @@ const About = () => (
         </p>
       </div>
       <div class="about-cta">
-        <a
-          href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf"
-          target="_blank"
-        >
+        <a href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf">
           View my resume
         </a>
         <a
