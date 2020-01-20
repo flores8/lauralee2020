@@ -24,10 +24,10 @@ const IndexPage = () => {
         {posts.map(post => (
           <article>
             <h3>
-              <Link to={post.slug}>{post.title}</Link>
+              <Link to={`/design/${post.slug}`}>{post.title}</Link>
             </h3>
             <p>{post.excerpt}</p>
-            <Link to={post.slug}>read this post $rarr;</Link>
+            <Link to={`/design/${post.slug}`}>read this post $rarr;</Link>
           </article>
         ))}
       </div>
