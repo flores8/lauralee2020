@@ -12,7 +12,7 @@ const Footer = () => (
         </a>
       </div>
       <div class="link-wrapper">
-        <a href="https://dribbble.com/lauralee_flores">Dribbble</a>
+        <a href="http://lauralee.design/">Dribbble</a>
       </div>
       <div class="link-wrapper">
         <a href="https://www.linkedin.com/in/lauraleeflores/">LinkedIn</a>
