@@ -43,9 +43,9 @@ const TopNav = ({ siteTitle }) => (
         </Link>
       </div>
       <div class="link-wrapper" style={linkWrapper}>
-        <a href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf">
-          Resume
-        </a>
+        <Link to="design" activeStyle={activeStyles}>
+          Design
+        </Link>
       </div>
     </nav>
   </header>
