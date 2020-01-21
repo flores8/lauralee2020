@@ -28,6 +28,16 @@ module.exports = {
         defaultLayouts: {
           default: require.resolve("./src/components/layout.js"),
         },
+        gatsbyRemarkPlugins: ["gatsby-remark-images"],
+        plugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              linkImagesToOriginal: false,
+              loading: "lazy",
+            },
+          },
+        ],
       },
     },
     {

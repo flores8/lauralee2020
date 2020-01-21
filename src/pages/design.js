@@ -27,7 +27,7 @@ const Design = () => {
               <h3>
                 <Link to={`/design/${post.slug}`}>{post.title}</Link>
               </h3>
-              <p>{post.description} test</p>
+              <p>{post.description}</p>
               <Link
                 to={`/design/${post.slug}`}
                 class="text-link-wrapper read-article"

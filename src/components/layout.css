@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|PT+Serif:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,400|PT+Serif:400,700&display=swap");
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -613,9 +613,20 @@ footer {
 }
 
 /* Home Page Styles */
+@media (max-width: 844px) {
+  .home-page-hero {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+}
 @media (min-width: 845px) {
   .home-page-hero {
     width: 65%;
+    text-align: left;
+  }
+  .home-page-hero p {
+    text-align: left;
   }
 }
 .home-page-hero h1 {
