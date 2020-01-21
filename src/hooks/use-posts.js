@@ -8,6 +8,14 @@ const usePosts = () => {
           frontmatter {
             title
             slug
+            description
+            image {
+              sharp: childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           excerpt
         }
@@ -17,7 +25,9 @@ const usePosts = () => {
 
   return data.allMdx.nodes.map(post => ({
     title: post.frontmatter.title,
+    description: post.frontmatter.description,
     slug: post.frontmatter.slug,
+    image: post.frontmatter.image,
     excerpt: post.excerpt,
   }))
 }

@@ -1,0 +1,34 @@
+.design .grid-12-column {
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.design h1 {
+  grid-column: col 1 / span 6;
+  font-size: 100px;
+  margin-bottom: 1.5rem;
+}
+.design p.subtitle {
+  grid-column: col 8 / span 4;
+  font-size: 24px;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+.design article {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  align-items: center;
+}
+.design a.article-image-wrapper {
+  grid-column: col 1 / span 8;
+  grid-row: 1;
+}
+.design .article-intro {
+  grid-column: col 8 / span 4;
+  grid-row: 1;
+  z-index: 2;
+}
+.design .article-intro h3 a {
+  text-decoration: none;
+  color: hsla(228, 2%, 40%, 1);
+  font-size: 30px;
+}

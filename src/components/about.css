@@ -1,25 +1,3 @@
-.wide-wrapper {
-  max-width: 785px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (max-width: 784px) {
-  .wide-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-.skinny-wrapper {
-  max-width: 524px;
-  margin-left: auto;
-  margin-right: auto;
-}
-@media (max-width: 523px) {
-  .skinny-wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
 .about h6 {
   letter-spacing: 2px;
   font-size: 18px;
