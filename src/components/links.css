@@ -1,7 +1,6 @@
 .link-wrapper a {
   text-decoration: none;
   color: hsla(228, 2%, 40%, 1);
-  font-size: 15px;
   text-align: right;
   transition: 0.3s;
   border-bottom: 3px solid transparent;

@@ -4,14 +4,35 @@
 }
 .design h1 {
   grid-column: col 1 / span 6;
-  font-size: 100px;
   margin-bottom: 1.5rem;
+  font-size: 60px;
+}
+@media screen and (min-width: 320px) {
+  .design h1 {
+    font-size: calc(60px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .design h1 {
+    font-size: 100px;
+  }
 }
 .design p.subtitle {
   grid-column: col 8 / span 4;
   font-size: 24px;
   margin-bottom: 0;
   line-height: 1.4;
+  font-size: 18px;
+}
+@media screen and (min-width: 320px) {
+  .design p.subtitle {
+    font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .design p.subtitle {
+    font-size: 24px;
+  }
 }
 @media (max-width: 800px) {
   .design h1 {
