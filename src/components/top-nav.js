@@ -43,8 +43,8 @@ const TopNav = ({ siteTitle }) => (
         </Link>
       </div>
       <div class="link-wrapper" style={linkWrapper}>
-        <Link to="design" activeStyle={activeStyles} partiallyActive={true}>
-          Design
+        <Link to="blog" activeStyle={activeStyles} partiallyActive={true}>
+          Blog
         </Link>
       </div>
     </nav>
