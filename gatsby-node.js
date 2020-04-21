@@ -5,6 +5,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         nodes {
           frontmatter {
             slug
+            template
           }
         }
       }
@@ -18,12 +19,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const posts = result.data.allMdx.nodes
 
   posts.forEach(post => {
-    actions.createPage({
-      path: `/blog/${post.frontmatter.slug}`,
-      component: require.resolve("./src/templates/post.js"),
-      context: {
-        slug: `${post.frontmatter.slug}`,
-      },
-    })
+    if (post.frontmatter.template === "minimal") {
+      actions.createPage({
+        path: `/blog/${post.frontmatter.slug}`,
+        component: require.resolve("./src/templates/minimal-post.js"),
+        context: {
+          slug: `${post.frontmatter.slug}`,
+        },
+      })
+    } else {
+      actions.createPage({
+        path: `/blog/${post.frontmatter.slug}`,
+        component: require.resolve("./src/templates/post.js"),
+        context: {
+          slug: `${post.frontmatter.slug}`,
+        },
+      })
+    }
   })
 }

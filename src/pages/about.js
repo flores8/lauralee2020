@@ -7,8 +7,8 @@ import "../components/about.css"
 const About = () => (
   <Layout>
     <SEO title="About" />
-    <div class="about">
-      <div class="wide-wrapper" style={{ textAlign: "center" }}>
+    <div className="about">
+      <div className="wide-wrapper" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
           A web and product designer at KickoffLabs. I’m a wife and mom of two
@@ -25,7 +25,7 @@ const About = () => (
       >
         <Image />
       </div>
-      <div class="skinny-wrapper">
+      <div className="skinny-wrapper">
         <p>
           I’m a Product Designer. I have been very happily working remotely
           since 2008. In 2007 I graduated with a masters degree in
@@ -51,14 +51,14 @@ const About = () => (
           solutions. I absolutely love what I do.
         </p>
       </div>
-      <div class="wide-wrapper">
-        <p class="quote">
+      <div className="wide-wrapper">
+        <p className="quote">
           “Design is a funny word. Some people think design means how it looks.
           But of course, if you dig deeper, it’s really how it works.”
         </p>
-        <p class="reference">Steve Jobs</p>
+        <p className="reference">Steve Jobs</p>
       </div>
-      <div class="skinny-wrapper">
+      <div className="skinny-wrapper">
         <p>
           In addition to design, I love to create products. I can create pretty
           much any design in HTML and CSS. I have experience with Javascript and
@@ -66,7 +66,7 @@ const About = () => (
           currently starting a new project called CSS Academy.
         </p>
       </div>
-      <div class="about-cta">
+      <div className="about-cta">
         <a href="https://lauraleeflores.s3.amazonaws.com/flores-resume.pdf">
           View my resume
         </a>

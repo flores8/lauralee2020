@@ -11,27 +11,27 @@ const Blog = () => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <div class="design">
-        <div class="full-wrapper grid-12-column">
+      <div className="design">
+        <div className="full-wrapper grid-12-column">
           <h1>Articles</h1>
-          <p class="design subtitle">
+          <p className="design subtitle">
             Articles and resources on building beautiful and useable web
             applications.
           </p>
         </div>
         {posts.map(post => (
-          <article class="full-wrapper">
-            <Link to={`/blog/${post.slug}`} class="article-image-wrapper">
+          <article className="full-wrapper">
+            <Link to={`/blog/${post.slug}`} className="article-image-wrapper">
               <Image fluid={post.image.sharp.fluid} alt={post.image_alt} />
             </Link>
-            <div class="article-intro">
+            <div className="article-intro">
               <h3>
                 <Link to={`/blog/${post.slug}`}>{post.title}</Link>
               </h3>
               <p>{post.description}</p>
               <Link
                 to={`/blog/${post.slug}`}
-                class="text-link-wrapper read-article"
+                className="text-link-wrapper read-article"
               >
                 Read Now
               </Link>

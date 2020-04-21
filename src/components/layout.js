@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <TopNav siteTitle={data.site.siteMetadata.title} />
-      <div class="layout-wrapper">
+      <div className="layout-wrapper">
         <main>{children}</main>
         <Footer />
       </div>
