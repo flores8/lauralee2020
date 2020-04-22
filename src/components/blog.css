@@ -56,7 +56,7 @@
   margin-bottom: 3rem;
 }
 .design a.article-image-wrapper {
-  grid-column: col 1 / span 8;
+  grid-column: col 1 / span 6;
   grid-row: 1;
 }
 @media (max-width: 800px) {
@@ -65,7 +65,7 @@
   }
 }
 .design .article-intro {
-  grid-column: col 8 / span 4;
+  grid-column: col 7 / span 6;
   grid-row: 1;
   z-index: 2;
   padding-left: 3rem;
