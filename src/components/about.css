@@ -1,3 +1,8 @@
+:root {
+  --text-color: hsla(228, 2%, 40%, 1);
+  --link-color: rgb(241, 85, 93);
+}
+
 .about h6 {
   letter-spacing: 2px;
   font-weight: 400;
@@ -113,4 +118,12 @@
 .about .about-cta a:hover {
   color: hsla(228, 2%, 40%, 1);
   background-size: 4px 50px;
+}
+.about a {
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  transition: color 0.4s;
+}
+.about a:hover {
+  color: var(--link-color);
 }

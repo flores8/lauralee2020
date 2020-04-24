@@ -63,7 +63,8 @@ const About = () => (
           In addition to design, I love to create products. I can create pretty
           much any design in HTML and CSS. I have experience with Javascript and
           Ruby on Rails. I created this website in Gatsby and React. I am
-          currently starting a new project called CSS Academy.
+          currently starting a new project called{" "}
+          <a href="https://www.cssacademy.io/">CSS Academy</a>.
         </p>
       </div>
       <div className="about-cta">
