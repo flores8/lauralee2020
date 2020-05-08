@@ -13,9 +13,9 @@ const IndexPage = () => {
             products that make people more successful and delighted.{" "}
           </h1>
           <p>
-            Currently Product Designer at{" "}
-            <a href="https://kickofflabs.com/" class="text-link-wrapper">
-              KickoffLabs
+            Currently working on a new project called{" "}
+            <a href="https://www.cssacademy.io/" class="text-link-wrapper">
+              CSS Academy
             </a>
             .
           </p>

@@ -2,6 +2,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const result = await graphql(`
     query {
       allMdx {
+        edges {
+          next {
+            frontmatter {
+              title
+              slug
+            }
+          }
+          previous {
+            frontmatter {
+              title
+              slug
+            }
+          }
+        }
         nodes {
           frontmatter {
             slug
@@ -25,6 +39,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: require.resolve("./src/templates/minimal-post.js"),
         context: {
           slug: `${post.frontmatter.slug}`,
+          next: `${post.next}`,
+          previous: `${post.previous}`,
         },
       })
     } else {
@@ -33,6 +49,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: require.resolve("./src/templates/post.js"),
         context: {
           slug: `${post.frontmatter.slug}`,
+          next: `${post.next}`,
+          previous: `${post.previous}`,
         },
       })
     }

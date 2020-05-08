@@ -11,7 +11,7 @@ const About = () => (
       <div className="wide-wrapper" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
-          A web and product designer at KickoffLabs. I’m a wife and mom of two
+          A web and product designer at CSSAcademy. I’m a wife and mom of two
           beautiful children.
         </h1>
       </div>
@@ -34,21 +34,14 @@ const About = () => (
           methods at two different Universities - both in person and online.
         </p>
         <p>
-          A lot of my work since 2007 has been related to product design. I
-          found myself more and more drawn to it. In 2015 I transitioned fully
-          to a product design role. I love the symbiotic relationship between
-          user research and product design.
+          In 2015 I transitioned fully to a product design role. I’ve found
+          design to be much more than just creating beautiful visuals - although
+          that is part of it.
         </p>
         <p>
-          I’ve found design to be much more than just creating beautiful visuals
-          - although that is part of it. Design is understanding the person
-          using a product and their goals and helping them be successful. It’s
-          also fundamentally about solving business problems.
-        </p>
-        <p>
-          To me, product design is a combination of all three: understanding and
-          solving customer and business problems with beautiful visual
-          solutions. I absolutely love what I do.
+          Design is understanding the person using a product and their goals and
+          helping them be successful. It’s also fundamentally about solving
+          business problems. I absolutely love what I do.
         </p>
       </div>
       <div className="wide-wrapper">
