@@ -41,6 +41,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-preconnect`,
+      options: {
+        domains: [{ domain: `https://fonts.gstatic.com/`, crossOrigin: true }],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
