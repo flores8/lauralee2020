@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Lauralee Flores - Product Designer" />
+      <SEO title="Home" />
       <div class="home-page-wrapper">
         <div class="home-page-hero">
           <h1>

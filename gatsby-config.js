@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-preconnect`,
       options: {
-        domains: [{ domain: `https://fonts.gstatic.com/`, crossOrigin: true }],
+        domains: [`https://fonts.gstatic.com/`],
       },
     },
     {
