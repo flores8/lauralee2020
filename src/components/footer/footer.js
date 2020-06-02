@@ -1,9 +1,9 @@
 import React from "react"
-import "./links.css"
+import "../links.css"
 import "./footer.css"
 
 const Footer = () => (
-  <footer>
+  <footer className="page__footer">
     <div className="copyright">© {new Date().getFullYear()}</div>
     <div className="online-presence">
       <div className="link-wrapper">

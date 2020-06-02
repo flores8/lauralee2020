@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "./links.css"
+import "../links.css"
 
 const navLayout = {
   maxWidth: "1100px",
@@ -19,10 +19,10 @@ const activeStyles = {
   borderBottom: "3px solid hsla(357, 85%, 64%, 1)",
 }
 
-const TopNav = ({ siteTitle }) => (
-  <header style={{ marginBottom: `1.45rem` }}>
-    <nav style={navLayout}>
-      <Link to="/">
+const TopNav = ({ siteTitle, className }) => (
+  <header style={{ marginBottom: `1.45rem` }} className="page__header header">
+    <nav style={navLayout} className="header__top-nav top-nav">
+      <Link to="/" className="top-nav__logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62">
           <path
             fill="#F1565D"
@@ -32,17 +32,17 @@ const TopNav = ({ siteTitle }) => (
         </svg>
       </Link>
 
-      <div className="link-wrapper" style={linkWrapper}>
+      <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
         <Link to="/" activeStyle={activeStyles}>
           Home
         </Link>
       </div>
-      <div className="link-wrapper" style={linkWrapper}>
+      <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
         <Link to="about" activeStyle={activeStyles}>
           About
         </Link>
       </div>
-      <div className="link-wrapper" style={linkWrapper}>
+      <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
         <Link to="blog" activeStyle={activeStyles} partiallyActive={true}>
           Blog
         </Link>
