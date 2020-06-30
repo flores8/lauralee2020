@@ -3,6 +3,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import TopNav from "./top-nav/top-nav"
 import Footer from "./footer/footer"
+import "./page/page.css"
+import "./text/text.css"
+import "./text/_color/text_color.css"
 import "./layout.css"
 
 const Layout = ({ children }) => {

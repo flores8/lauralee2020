@@ -1,7 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "../links.css"
+import "../page/__header/page__header.css"
+import "../header/header.css"
+import "../link/links.css"
 
 const navLayout = {
   maxWidth: "1100px",
@@ -20,8 +22,8 @@ const activeStyles = {
 }
 
 const TopNav = ({ siteTitle, className }) => (
-  <header style={{ marginBottom: `1.45rem` }} className="page__header header">
-    <nav style={navLayout} className="header__top-nav top-nav">
+  <header className="page__header header">
+    <nav style={navLayout} className="header__top-nav top-nav text">
       <Link to="/" className="top-nav__logo">
         <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62">
           <path
@@ -38,12 +40,12 @@ const TopNav = ({ siteTitle, className }) => (
         </Link>
       </div>
       <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
-        <Link to="about" activeStyle={activeStyles}>
+        <Link to="/about/" activeStyle={activeStyles}>
           About
         </Link>
       </div>
       <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
-        <Link to="blog" activeStyle={activeStyles} partiallyActive={true}>
+        <Link to="/blog/" activeStyle={activeStyles} partiallyActive={true}>
           Blog
         </Link>
       </div>

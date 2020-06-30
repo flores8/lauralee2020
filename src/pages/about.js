@@ -8,7 +8,7 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <div className="about">
-      <div className="wide-wrapper" style={{ textAlign: "center" }}>
+      <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
           A web and product designer at CSSAcademy. I’m a wife and mom of two
@@ -25,7 +25,7 @@ const About = () => (
       >
         <Image />
       </div>
-      <div className="skinny-wrapper">
+      <div className="skinny-wrapper text">
         <p>
           I’m a Product Designer. I have been very happily working remotely
           since 2008. In 2007 I graduated with a masters degree in
@@ -44,14 +44,14 @@ const About = () => (
           business problems. I absolutely love what I do.
         </p>
       </div>
-      <div className="wide-wrapper">
+      <div className="wide-wrapper text">
         <p className="quote">
           “Design is a funny word. Some people think design means how it looks.
           But of course, if you dig deeper, it’s really how it works.”
         </p>
         <p className="reference">Steve Jobs</p>
       </div>
-      <div className="skinny-wrapper">
+      <div className="skinny-wrapper text">
         <p>
           In addition to design, I love to create products. I can create pretty
           much any design in HTML and CSS. I have experience with Javascript and
