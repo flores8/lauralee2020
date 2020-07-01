@@ -26,7 +26,7 @@ const IndexPage = () => {
             👩‍💻
           </span>
         </p>
-        <p class="text-sans">I'll keep you updated as I make progress.</p>
+        <p class="text--sans">I'll keep you updated as I make progress.</p>
       </div>
     </Layout>
   )
