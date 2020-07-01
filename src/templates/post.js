@@ -19,7 +19,9 @@ export const query = graphql`
 
 const PostTemplate = ({ data: { mdx: post } }) => (
   <Layout>
-    <MDXRenderer>{post.body}</MDXRenderer>
+    <div className="text">
+      <MDXRenderer>{post.body}</MDXRenderer>
+    </div>
   </Layout>
 )
 

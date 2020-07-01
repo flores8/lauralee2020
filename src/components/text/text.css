@@ -7,9 +7,24 @@
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   color: var(--text-color);
+  &-dark {
+    color: var(--text-color-dark);
+  }
 }
-.text_serif {
-  color: hsla(228, 2%, 40%, 1);
+.text--dark {
+  font-weight: normal;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  color: var(--text-color-dark);
+}
+.text--serif {
   font-family: "PT Serif", georgia, serif;
+}
+.text--sans {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
 

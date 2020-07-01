@@ -9,6 +9,7 @@ const usePosts = () => {
             title
             slug
             description
+            date(formatString: "MMMM DD, YYYY")
             image {
               sharp: childImageSharp {
                 fluid {
@@ -29,6 +30,7 @@ const usePosts = () => {
     slug: post.frontmatter.slug,
     image: post.frontmatter.image,
     excerpt: post.excerpt,
+    date: post.frontmatter.date,
   }))
 }
 

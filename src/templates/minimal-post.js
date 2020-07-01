@@ -19,7 +19,7 @@ export const query = graphql`
 
 const MinimalPostTemplate = ({ data: { mdx: post } }) => (
   <Layout>
-    <div className="blog-post narrow">
+    <div className="blog-post narrow text">
       <MDXRenderer>{post.body}</MDXRenderer>
     </div>
   </Layout>
