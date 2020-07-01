@@ -8,3 +8,14 @@
     padding-right: 15px;
   }
 }
+
+.content-container--narrow {
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+@media screen and (max-width: 530px) {
+  .content-container--narrow {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
