@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
@@ -9,9 +10,14 @@ const IndexPage = () => {
       <div class="content-container--narrow text">
         <h1>You're in!</h1>
         <p class="text--sans">
-          Welcome, you're officially on the list! You'll need to confirm your
-          email. Once it's confirmed you'll hear from me when content is
-          available.
+          Thanks for expressing interest in CSS Fundamentals! If you want to
+          learn a little bit more about the course you can see more info here:{" "}
+          <Link
+            className="blog__title-link text"
+            to={`https://fundamentals.cssacademy.com/`}
+          >
+            https://fundamentals.cssacademy.com/
+          </Link>
         </p>
         <p class="text--sans">
           Normally you would see this on cssacademy.com and soon it will be
