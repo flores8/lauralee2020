@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "../components/image"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import "../components/about.css"
+import React from "react";
+import Image from "../components/image";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import "../components/about.css";
 
 const About = () => (
   <Layout>
@@ -57,7 +57,7 @@ const About = () => (
           much any design in HTML and CSS. I have experience with Javascript and
           Ruby on Rails. I created this website in Gatsby and React. I am
           currently starting a new project called{" "}
-          <a href="https://www.cssacademy.io/">CSS Academy</a>.
+          <a href="https://www.cssacademy.com/">CSS Academy</a>.
         </p>
       </div>
       <div className="about-cta">
@@ -73,6 +73,6 @@ const About = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default About
+export default About;

@@ -1,7 +1,7 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Link } from "gatsby"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { Link } from "gatsby";
 
 const IndexPage = () => {
   return (
@@ -29,7 +29,7 @@ const IndexPage = () => {
         <p class="text--sans">I'll keep you updated as I make progress.</p>
       </div>
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
