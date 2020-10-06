@@ -24,15 +24,17 @@ const activeStyles = {
 const TopNav = ({ siteTitle, className }) => (
   <header className="page__header header">
     <nav style={navLayout} className="header__top-nav top-nav text">
-      <Link to="/" className="top-nav__logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62">
-          <path
-            fill="#F1565D"
-            fillRule="evenodd"
-            d="M31.5,0 L31.5,24.19 L48.50,24.19 C48.77,24.19 49.00,24.41 49.00,24.69 C49.00,24.76 48.98,24.84 48.95,24.90 L31.5,62 L31.5,37.80 L14.49,37.80 C14.22,37.80 13.99,37.58 13.99,37.30 C13.99,37.23 14.01,37.15 14.04,37.09 L31.5,0 Z"
-          />
-        </svg>
-      </Link>
+      <div className="top-nav__logo">
+        <Link to="/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62">
+            <path
+              fill="#F1565D"
+              fillRule="evenodd"
+              d="M31.5,0 L31.5,24.19 L48.50,24.19 C48.77,24.19 49.00,24.41 49.00,24.69 C49.00,24.76 48.98,24.84 48.95,24.90 L31.5,62 L31.5,37.80 L14.49,37.80 C14.22,37.80 13.99,37.58 13.99,37.30 C13.99,37.23 14.01,37.15 14.04,37.09 L31.5,0 Z"
+            />
+          </svg>
+        </Link>
+      </div>
 
       <div className="top-nav__link-wrapper link-wrapper" style={linkWrapper}>
         <Link to="/" activeStyle={activeStyles}>

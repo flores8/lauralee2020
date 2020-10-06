@@ -14,14 +14,17 @@ const Blog = () => {
       <div className="blog content-container">
         <h1 className="blog__headline">Articles</h1>
         <p className="blog__subtitle">
-          Articles and resources on building beautiful and useable web applications.
+          Articles, resources, and thoughts on building beautiful and useable
+          web applications.
         </p>
         {posts.map(post => (
           <article className="blog__article">
             <h3 className="blog__title">
-              <Link className="blog__title-link text" to={`/blog/${post.slug}`}>{post.title}</Link>
+              <Link className="blog__title-link text" to={`/blog/${post.slug}`}>
+                {post.title}
+              </Link>
             </h3>
-            <p className="blog__date text text--sans">Updated {post.date}</p>
+            <p className="blog__date text text--sans">{post.date}</p>
           </article>
         ))}
       </div>
