@@ -96,6 +96,11 @@
     font-size: 38px;
   }
 }
+.blog-post blockquote {
+  margin: 0;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
 .gatsby-resp-image-wrapper {
   min-width: 100%;
   margin: 4rem auto;
@@ -165,6 +170,9 @@
   .blog-post.narrow p,
   .blog-post.narrow li {
     font-size: calc(18px + 6 * ((100vw - 320px) / 680));
+  }
+  .blog-post.narrow blockquote p {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {

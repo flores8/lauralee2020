@@ -10,13 +10,7 @@ const usePosts = () => {
             slug
             description
             date(formatString: "MMMM DD, YYYY")
-            image {
-              sharp: childImageSharp {
-                fluid {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
+            image
           }
           excerpt
         }

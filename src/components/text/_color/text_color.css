@@ -3,4 +3,6 @@
   --text-color: hsla(228, 2%, 40%, 1);
   --text-color-light: hsla(228, 2%, 80%, 1);
   --link-color: rgb(241, 85, 93);
+  --blue: hsla(198, 63%, 38%, 1);
+  --light-blue: hsla(192, 66%, 98%, 1);
 }
