@@ -3,7 +3,7 @@ import Highlight, { defaultProps } from "prism-react-renderer"
 import theme from "prism-react-renderer/themes/github"
 import liveTheme from "prism-react-renderer/themes/vsDark"
 import styled from "styled-components"
-import { neutral, red, typeScale, codeFont } from "../../utils"
+import { neutral, red, typeScale, codeFont, primaryFont } from "../../utils"
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live"
 
 const PrismWrapper = props => {
@@ -99,13 +99,13 @@ const Error = styled.div`
 `
 
 const Pre = styled.pre`
-  background: ${neutral[100]};
-  border: 1px solid ${neutral[200]};
+  background: ${neutral.white};
+  border: 1px solid ${neutral[100]};
   padding: 1rem 1.5rem 0.5rem 1rem;
-  margin: 3rem 0;
   font-size: ${typeScale.paragraph};
   font-family: ${codeFont};
   overflow-x: scroll;
+  border-radius: 3px;
   &::-webkit-scrollbar-track {
     border: none;
     background: transparent;
@@ -115,17 +115,21 @@ const Pre = styled.pre`
   }
   .code-tab {
     position: absolute;
-    top: 2px;
+    top: 1px;
     right: 5%;
-    color: ${neutral[600]};
-    font-size: 1rem;
+    color: ${neutral[700]};
+    font-size: ${typeScale.smallText};
+    letter-spacing: 2px;
     font-weight: 700;
     transform: translateY(-100%);
     text-transform: uppercase;
-    padding: 0.05rem 0.85rem 0;
+    padding: 0.2rem 0.85rem 0.1rem;
     background: rgb(246, 248, 250);
     border: 1px solid ${neutral[200]};
     border-bottom: none;
+    font-family: ${primaryFont};
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
   }
 `
 

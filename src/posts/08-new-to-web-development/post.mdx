@@ -3,13 +3,15 @@ title: New to Web Development?
 subtitle: New to Web Development?
 description: If you're new to ruby or rails web development get an explanation to a lot of terms you might hear but not fully understand.
 slug: new-to-web-development
-image: ./images/header-image-sizing-guide.jpg
-image_alt: Learn product design through effort and practice.
+image: ./images/new-to-web-development.png
+image_alt: New to web development? Get an explanation to common terms you'll hear.
 template: minimal
 date: "2020-09-10"
 ---
 
 # New to Web Development?
+
+![New to web development? Get an explanation to common terms.](./images/new-to-web-development.png)
 
 When I was first learning ruby and rails I would hear terms used and I wasn't exactly sure what it was. I could understand it based on the context but if I had to explain it to someone I wouldn't know how to do that.
 
@@ -25,9 +27,11 @@ A class is the classifiction, whereas an object is the actual object or "thing" 
 
 Simply, a Ruby class is the definition (or classification) of a single type of object. For example:
 
+```ruby
 class Person
-has_many :friends
+  has_many :friends
 end
+```
 
 Ruby classes always start with a capital letter. Some examples are User, Person, Place, Topic, Post, and so forth.
 
@@ -45,7 +49,9 @@ For example, if you have a class Book the object would be a single specific book
 
 Instantiation is creating a new object instance (like "The Alchemist" or a single person using the examples above). In Ruby you use the Class method `new` to instantiate a new object. For example:
 
-`person_instance = Person.new`
+```ruby
+    person_instance = Person.new
+```
 
 ## Method
 
@@ -53,16 +59,20 @@ Methods are like instructions for your object to perform. They're very important
 
 For instance, if we had a Dog object and we wanted it to have a bark method, you would create it like this in Ruby:
 
+```ruby
 class Dog
-def bark
-puts "Woof! Woof!"
+  def bark
+    puts "Woof! Woof!"
+  end
 end
-end
+```
 
 Now any dogs you create can now bark by calling the bark method:
 
+```ruby
 small_dog = Dog.new
 small_dog.bark
+```
 
 The output would be:
 
@@ -74,41 +84,55 @@ Functions are very similar to methods but tend to be more general and not tied t
 
 Here's an example:
 
+```ruby
 def dog_barking
-puts "Woof!"
+  puts "Woof!"
 end
+```
 
 Now to call this method you simply need to call: `dog_barking` and the output will be: Woof!
 
 ## Conditional
 
-Conditional logic is a form of flow control for your code to follow. The simplest form of conditional logic is `if` or`unless`.
+Conditional logic is a form of flow control for your code to follow. The simplest form of conditional logic is `if` or `unless`.
 
 Single Line:
 
+```ruby
 puts "What happened?" if 2 == 1
+```
 
 Multiline:
 
+```ruby
 if 2==1
-puts "What happened?"
+  puts "What happened?"
 end
+```
 
-This is two ways of doing the same thing. If this conditional logic resolves to be`false` the string "What happened?" will not be printed to the screen. In fact, it would be as if this wasn't even in your code at all.
+This is two ways of doing the same thing. If this conditional logic resolves to be `false` the string "What happened?" will not be printed to the screen. In fact, it would be as if this wasn't even in your code at all.
 
 You can also use `else`, `elseif`, `unless`, `case` and many others. A very common and concise way to do a simple if statement is:
 
+```ruby
 expression ? true_expression : false expression
+```
 
 In Ruby on Rails it would look like this:
 
+```rails
 <%= @user.present? ? "Hello!" : "Sign Up" %>
+```
 
 This is an if expression asking if the user is present. If so it will print "Hello!" and if it results in false it will print "Sign Up".
 
 ## Class Variables and Instance Variables
 
-Class and instance variables are very similar. They have two main ways they differ. First, is their scope. Class variables have a wider scope and instance variables are specific just to an instance of an object. Second, is the way they're called. Instance variables are called with one @ symbol and class variables are called with two @ symbols (like so @@).
+Class and instance variables are very similar. They have two main ways they differ.
+
+First, is their scope. Class variables have a wider scope and instance variables are specific just to an instance of an object.
+
+Second, is the way they're called. Instance variables are called with one @ symbol and class variables are called with two @ symbols (like so @@).
 
 ### Instance Variables
 
@@ -122,22 +146,25 @@ Class variables have scope within the current class (as opposed to within specif
 
 Classes can inherit features from other classes while still having unique features of their own. Example:
 
+```ruby
 class Cat
-attr_accessor :name, :gender, :color
+  attr_accessor :name, :gender, :color
 end
 
 class Dog
-attr_accessor :name, :gender, :color
+  attr_accessor :name, :gender, :color
 end
 
 class Bird
-attr_accessor :name, :gender, :color
+  attr_accessor :name, :gender, :color
 end
+```
 
 Using inheritance this could be made DRYer:
 
+```ruby
 class Pet
-attr_accessor :name, :gender, :color
+  attr_accessor :name, :gender, :color
 end
 
 class Cat < Pet
@@ -148,6 +175,7 @@ end
 
 class Bird < Pet
 end
+```
 
 In both of these examples, Bird, Dog, and Cat have :name, :gender, and :color as `"attr_accessor"`. You can see how the second example is better by using inheritance.
 
@@ -155,18 +183,19 @@ In both of these examples, Bird, Dog, and Cat have :name, :gender, and :color as
 
 Encapsulation is the ability for an object to have certain methods and attributes available for use publicly (from any section of code), but for others to be visible only within the class itself or other objects of the same class.
 
+```ruby
 class Person
-def initialize(name)
-set_name(name)
+  def initialize(name)
+    set_name(name)
+  end
+
+  private
+
+  def private
+    # this is only available in this class
+  end
 end
-
-    private
-
-    def private
-        # this is only available in this class
-    end
-
-end
+```
 
 This keeps your application clean and agile so that you can change it without worrying that it's going to break in other places.
 
