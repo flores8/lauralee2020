@@ -1,8 +1,8 @@
-import React from "react";
-import Image from "../components/image";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import "../components/about.css";
+import React from "react"
+import Image from "../components/image"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import "../components/about.css"
 
 const About = () => (
   <Layout>
@@ -11,8 +11,8 @@ const About = () => (
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
-          A web and product designer at CSSAcademy. I’m a wife and mom of two
-          beautiful children.
+          Product designer. Front-end developer. Usability Professional. Writer.
+          Entrepreneur.
         </h1>
       </div>
       <div
@@ -73,6 +73,6 @@ const About = () => (
       </div>
     </div>
   </Layout>
-);
+)
 
-export default About;
+export default About

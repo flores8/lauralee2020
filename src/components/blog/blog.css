@@ -105,6 +105,9 @@
   min-width: 100%;
   margin: 4rem auto;
 }
+.design-step {
+  padding-bottom: 1rem;
+}
 .design-step-wrapper {
   padding: 5rem auto;
   background: white;
