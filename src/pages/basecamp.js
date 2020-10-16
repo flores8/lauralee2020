@@ -131,15 +131,11 @@ const Basecamp = () => {
               <blockquote>
                 Thank you so much! Seriously I've never seen anyone send over a video and provide help like this! I showed this to my entire team on how customer service in a digital age should be.
               </blockquote>
-            </Content>
 
-            <Content>
               <blockquote>
                 I wanted to let you know I've finished testing the program top to bottom and everything is working as desired. Thank you again for all of the help. When these issues started to arise, I sent the initial support email and started to look at other tools as backup options. It was your timely and effective support that made it clear Kickofflabs was the right choice for us. You've got a loyal customer now for sure.
               </blockquote>
-            </Content>
 
-            <Content>
               <blockquote>
                 Lauralee, firstly let me say a HUGE thank you!
                 if i did not love Kickoff labs enough before, now i cant say how amazing it is! That is possibly the best customer support i have ever seen.
