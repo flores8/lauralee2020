@@ -25,13 +25,13 @@ const Basecamp = () => {
             <SectionTitle>
               About me
             </SectionTitle>
-            <Content>I am a laid back and happy person. I love my life and my family.  I am married to a man who I am crazy about. We've been married for 15 years and each year is somehow better than the last. We have two children (10 and 12 years old) who make me proud and hopeful for the future. And to top it all off I get to do work I genuinely enjoy.</Content>
+            <Content>I love my life and my family.  I am married to a man who I am crazy about. We've been married for 15 years and each year is somehow better than the last. We have two children (10 and 12 years old) who make me proud and hopeful for the future. And to top it all off I get to do work I genuinely enjoy.</Content>
             <Family />
           </Left>
           <Right>
             <Hiking />
             <Content>
-              I like to read, hike, mountain bike, swim, and pretty much enjoy all sports. I love earrings. I sometimes decide my clothes based on what earrings I want to wear that day. I love going to the movies. I've missed having theaters open this year. I love traveling and experiencing new places, food, and cultures. I love to learn. I'm always taking courses, reading, experimenting and trying to improve myself. 
+              I like to read, hike, mountain bike, swim, and pretty much enjoy all sports. I love earrings. I sometimes decide my clothes based on what earrings I want to wear that day. I love going to the movies. I've missed having theaters open this year. I love traveling and learning new things. I'm always taking courses, reading, experimenting and trying to improve myself. 
             </Content>
           </Right>
         </Half>
@@ -42,16 +42,16 @@ const Basecamp = () => {
           </SectionTitle>
           <Columns>
             <Content>
-              Right now you need someone who can not only design beautiful and usable interfaces but can also create those designs in HTML, CSS (using BEM), and Javascript right inside your Rails app. A person who knows that a design done with Lorem Ipsum has missed the whole point. 
+              I'm someone who can not only design beautiful and usable interfaces but can also create those designs in HTML, CSS (using BEM), and Javascript right inside your Rails app. Someone who knows that a design done with Lorem Ipsum has missed the whole point. 
             </Content>
             <Content>
-              You need someone who doesn't need a lot of direction or daily check-ins. Someone who can take a shaped project and run with it. They set their own direction and they execute on it. Someone with an entrepreneurial spirit who has the desire and experience to start projects and see them through. 
+              I don't need a lot of direction or daily check-ins. When I begin work on a project it's natural for me to set my own direction and simply execute on it. My entrepreneurial spirit thrives on starting projects and seeing them through. 
             </Content>
             <Content>
-              You know that their work isn't the only thing that is important. They're part of a team after all. You need someone who can clearly communicate and work well with other team members. And they should be the type of person who jumps in to help when they notice someone could use a hand. 
+              As a member of a team I am conscientious about clearly communicating. And I naturally get along and work well with other team members. If I notice someone could use a hand I'm quick to jump in and help. 
             </Content>
             <Content>
-              I am that person. It's not that I can be that person for this job. Or try to become that person because I know that's what you're looking for. That is simply who I am. 
+              To be clear, it's not that I can be that person for this job. Or try to become that person because I know that's what you're looking for. That is simply who I am. 
             </Content>
           </Columns>
         </ContentHeavy>
@@ -100,7 +100,13 @@ const Basecamp = () => {
               My first side project was <Link to="http://majorfinder.com/">Major Finder</Link>, where I designed and developed my very first app (in Rails). It was incredibly exciting. I discovered how much I loved it and so I took a coding bootcamp to improve my programming skills in Ruby and Ruby on Rails. As part of this bootcamp I created around 10 apps. This was a great exercise learning and sharpening my development and design skills. It was probably the first time I simply experimented with different designs and product layouts. And I learned to create everything from a basic Rails CRUD app to an API.  It was exhilarating. 
             </Content>
             <Content>
-              After the bootcamp I started doing some freelance work where I got to do a mixture of designing and developing websites and a few web apps. I absolutely loved it and knew this was my future. During this time my brother unexpectedly passed away and a short time later I took a weekend and created a way to <Link to="http://rememberbrig.com/">gather his memories</Link>. Later I created a way for others to gather memories of <Link to="https://memorates.com/">their lost loved ones</Link>. I've recently just started a new project called <Link to="https://www.cssacademy.com/">CSS Academy</Link>. 
+              After the bootcamp I started doing some freelance work where I got to do a mixture of designing and developing websites and a few web apps. I absolutely loved it and knew this was my future.
+            </Content>
+            <Content>
+              During this time my brother passed away unexpectedly. My family wanted to gather memories of him but couldn't find any service to do this. So, I took a weekend and <Link to="http://rememberbrig.com/">created one</Link>. Later I expanded it to allow others to gather memories of <Link to="https://memorates.com/">their lost loved ones</Link>.  
+            </Content>
+            <Content>
+              I've recently thrown myself into a new project called <Link to="https://www.cssacademy.com/">CSS Academy</Link>.
             </Content>
           </Columns>
 
@@ -120,41 +126,46 @@ const Basecamp = () => {
             <Content>Here are a few responses I received from customers I helped:</Content>
           </Columns>
           <Quotes>
+
             <Content>
               <blockquote>
                 Thank you so much! Seriously I've never seen anyone send over a video and provide help like this! I showed this to my entire team on how customer service in a digital age should be.
               </blockquote>
             </Content>
+
             <Content>
               <blockquote>
                 I wanted to let you know I've finished testing the program top to bottom and everything is working as desired. Thank you again for all of the help. When these issues started to arise, I sent the initial support email and started to look at other tools as backup options. It was your timely and effective support that made it clear Kickofflabs was the right choice for us. You've got a loyal customer now for sure.
               </blockquote>
             </Content>
+
             <Content>
               <blockquote>
                 Lauralee, firstly let me say a HUGE thank you!
                 if i did not love Kickoff labs enough before, now i cant say how amazing it is! That is possibly the best customer support i have ever seen.
                 Your boss runs one smart company.
-                Thank you
-                Mark
               </blockquote>
             </Content>
           </Quotes>
-          <Columns>
-            <Content>
-              I also got to design and create all my designs - everything from the app dashboard to creating a new onboarding sequence. Every new project I got to be involved in from design to development. I loved it.
-            </Content>
-            <Content>
-              Here's a small sampling of my product design work:
-            </Content>
-          </Columns>
         </ContentHeavy>
-        <ImageGrid>
-          {data.allFile.nodes.map(({childImageSharp}) =>(
-            <Img fluid={childImageSharp.fluid} />
-          ))}
-        </ImageGrid>
       </div>
+
+      <div className="skinny-wrapper text">
+        <ContentHeavy>
+          <Content>
+            I also got to design and create all my designs - everything from the app dashboard to creating a new onboarding sequence. Every new project I got to be involved in from design to development. I loved it.
+          </Content>
+          <Content>
+            Here's a small sampling of my product design work:
+          </Content>
+        </ContentHeavy>
+      </div>
+
+      <ImageGrid>
+        {data.allFile.nodes.map(({childImageSharp}) =>(
+          <Img fluid={childImageSharp.fluid} />
+        ))}
+      </ImageGrid>
 
       <div className="skinny-wrapper text">
         <ContentHeavy>
@@ -211,6 +222,9 @@ const Half = styled.section`
   grid-template-columns: 1fr 1fr;
   grid-gap: 3rem;
   margin-block-start: 4rem;
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 `
 const Left = styled.div`
   .gatsby-image-wrapper {
@@ -248,6 +262,9 @@ const Content = styled.p`
       background-size: 4px 50px;
     }
   }
+  ol {
+    margin-top: .5rem;
+  }
 `
 const ContentHeavy = styled.div`
   margin-block-start: 4rem;
@@ -255,17 +272,25 @@ const ContentHeavy = styled.div`
 const Columns = styled.div`
   column-width: 200px;
   column-count: 2;
-  column-gap: 75px;
+  column-gap: 90px;
   margin-bottom: 5rem;
 `
 const ImageGrid = styled.section`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+  padding-block-start: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 1rem;
+  @media (min-width: 1000px) {
+    max-inline-size: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `
 const Quotes = styled.div`
-margin-block-start: -6rem;
-margin-block-end: 3rem;
+margin-block-start: -5rem;
+margin-block-end: 0;
 `
 
 const basecampImages = graphql`
