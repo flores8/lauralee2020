@@ -177,7 +177,7 @@ const Basecamp = () => {
                 <Link to="https://www.cssacademy.com/">CSS Academy</Link> is a project I have recently just begun and am really excited about. It's meant for designers and developers who want to learn or improve their CSS skills and stay on top of new changes in the CSS world. I believe I will work on this project for the rest of my career. I'm really enjoying it and have a lot of plans for it. 
               </li>
               <li>
-                We have a few trips planned for when travel is safe that I'm excited about. We're planning on going to Japan and Belgium. We love to travel. 
+                We have a few trips planned for when travel is safe that I'm excited about. Specifically, we have plans to go to Japan and Belgium. We love to travel. 
               </li>
               <li>
                 I'm excitedly waiting on our <Link to="https://www.yellowleafhammocks.com/products/the-hammock-throne" >Hammock Throne</Link> to arrive. We have one of the Yellow Leaf hammocks in our back yard and it is so comfortable! The base we have it hanging from simply doesn't compare to the beautiful Hammock Throne. 
@@ -285,8 +285,8 @@ const ImageGrid = styled.section`
   }
 `
 const Quotes = styled.div`
-margin-block-start: -5rem;
-margin-block-end: 0;
+margin-block-start: -2rem;
+margin-block-end: -2rem;
 `
 
 const basecampImages = graphql`
