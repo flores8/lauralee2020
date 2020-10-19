@@ -34,6 +34,7 @@ const About = () => (
           <li><Link to="http://lauralee.design/">Dribbble</Link> - I have some of my design work up there. If you're on dribbble I'd love to connect with you there.</li>
         </ul>
         <h3>Books that have changed me and the way I work</h3>
+        <p>I'm currently reading <Link to="https://www.christenseninstitute.org/books/competing-against-luck/">Competing Against Luck</Link>.</p>
         <ul>
           <li><Link to="https://www.calnewport.com/books/deep-work/">Deep Work</Link> - this is a book about performing your best work intentionally. It changed the way I schedule and do my work. If you are not already working deeply, I truly believe that you would benefit from following the advice in this book.</li>
           <li><Link to="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI">Man's Search for Meaning</Link> - probably the most beautiful book I have ever read. It changed the way I view my freedom and my attitude. It is inspiring and incredibly insightful.</li>
