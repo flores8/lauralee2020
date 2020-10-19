@@ -34,6 +34,14 @@
   }
 }
 
+.about h3 {
+  font-size: clamp(1.33rem, 1rem + 1.3vw, 1.77rem);
+}
+.about li {
+  line-height: 1.5;
+  font-size: clamp(.75rem, .5rem + .9vw, 1rem);
+}
+
 .about p {
   line-height: 1.7;
   margin-bottom: 3rem;
@@ -54,30 +62,20 @@
 .about .quote {
   text-align: center;
   margin-bottom: 0;
-  font-size: 24px;
-}
-@media screen and (min-width: 320px) {
-  .about .quote {
-    font-size: calc(24px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  .about .quote {
-    font-size: 31px;
-  }
+  font-size: clamp(1rem, 1rem + .6vw, 1.33rem);
 }
 
 .about .reference {
   text-align: center;
   font-style: italic;
   color: hsla(228, 4%, 60%, 1);
-  margin-top: 0.5rem;
+  margin-top: 0;
   margin-bottom: 2rem;
-  font-size: 17px;
+  font-size: 16px;
 }
 @media screen and (min-width: 320px) {
   .about .reference {
-    font-size: calc(17px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {
@@ -119,6 +117,7 @@
   color: hsla(228, 2%, 40%, 1);
   background-size: 4px 50px;
 }
+
 .about a {
   color: var(--text-color);
   text-decoration-color: var(--link-color);
