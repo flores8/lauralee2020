@@ -41,6 +41,9 @@
   line-height: 1.5;
   font-size: clamp(.75rem, .5rem + .9vw, 1rem);
 }
+.about ul > li:first-child {
+  margin-top: .5rem;
+}
 
 .about p {
   line-height: 1.7;
