@@ -14,8 +14,8 @@ const Blog = () => {
       <div className="blog content-container">
         <h1 className="blog__headline">Articles</h1>
         <p className="blog__subtitle">
-          Articles, resources, and thoughts on building beautiful and useable
-          web applications.
+          Articles, resources, and thoughts on life, productivity, and building
+          beautiful and useable web applications.
         </p>
         {posts.map(post => (
           <article className="blog__article">
