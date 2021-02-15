@@ -44,27 +44,36 @@ const About = () => (
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - I'm
-            working with a colleague to build a UX tool platform focused on
-            helping companies make better product decisions and delight their
+            working with a colleague to build a platform for companies who want
+            a modern online UX research tool. It's geared towards helping
+            companies make better product decisions that will delight their
             audience.
           </li>
           <li>
-            <Link to="https://www.cssacademy.com/">CSS Academy</Link> - I'm
-            throwing myself into building a place for designers and developers
-            who want to learn or improve their CSS skills.
+            <Link to="https://www.cssacademy.com/">CSS Academy</Link> - I love
+            CSS. I am constantly learning and improving my CSS skills. I wanted
+            a place to store it all and share it with others. It's really geared
+            toward designers and developers who want to learn or improve their
+            CSS skills as well.
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
-            my design work up there. If you're on dribbble I'd love to connect
-            with you there.
+            my design work up there. To be honest, I'm not great about
+            remembering to take time to share my design work. But, when I do
+            that's where I do it. If you're on dribbble I'd love to connect with
+            you there.
           </li>
         </ul>
         <h3>Books that have changed me and the way I work</h3>
         <p>
-          I love to read. I'm currently reading{" "}
-          <Link to="https://mikemichalowicz.com/profit-first/">
-            Profit First
-          </Link>
+          I love to read and learn. I'm currently reading{" "}
+          <Link to="https://rosenfeldmedia.com/books/jobs-to-be-done-book/">
+            The Jobs to be Done Playbook
+          </Link>{" "}
+          and{" "}
+          <Link to="http://www.whencoffeeandkalecompete.com/">
+            When Coffee & Kale Compete
+          </Link>{" "}
           . Here are a few books that have changed me:
           <ul>
             <li>
@@ -144,11 +153,10 @@ const About = () => (
         </p>
         <p className="reference">Viktor E. Frankl</p>
         <p className="quote">
-          “Before you ask for readers, write the article you wish you could
-          read. Before you ask for the sale, create the product you wish you
-          had. Before you need support, be the supportive friend. Before you
-          need love, be the loving partner. Always give value before you ask for
-          value.”
+          "The secret to winning is learning how to lose. That is, learning to
+          bounce back from failure and disappointment—undeterred—and continuing
+          to steadily march toward your potential. Your response to failure
+          determines your capacity for success."
         </p>
         <p className="reference">James Clear</p>
         <p className="quote">
