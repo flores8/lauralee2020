@@ -1,13 +1,13 @@
 import React from "react"
 import Image from "../components/image"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import "../components/about.css"
 import { Link } from "gatsby"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <Seo title="About" />
     <div className="about">
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>

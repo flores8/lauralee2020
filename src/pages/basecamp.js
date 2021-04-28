@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby";
@@ -13,7 +13,7 @@ const Basecamp = () => {
   const data = useStaticQuery(basecampImages);
   return (
     <Layout>
-      <SEO title="Basecamp Cover Letter" />
+      <Seo title="Basecamp Cover Letter" />
       <div className="wide-wrapper text">
         <Title>Hi, I'm Lauralee</Title>
         <Subtitle>

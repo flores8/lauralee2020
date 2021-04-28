@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import { Link } from "gatsby";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Success!" />
+      <Seo title="Success!" />
       <div class="content-container--narrow text">
         <h1>You're in!</h1>
         <p class="text--sans">

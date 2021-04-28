@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import "../components/blog/blog.css"
 import "../components/content-container/content-container.css"
 import { Link } from "gatsby"
@@ -10,7 +10,7 @@ const Blog = () => {
   const posts = usePosts()
   return (
     <Layout>
-      <SEO title="Blog" />
+      <Seo title="Blog" />
       <div className="blog content-container">
         <h1 className="blog__headline">Articles</h1>
         <p className="blog__subtitle">
