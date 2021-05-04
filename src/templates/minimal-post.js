@@ -1,19 +1,49 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import styled from "styled-components"
 import { primaryFont, typeScale, neutral } from "../utils"
 
-const MinimalPostTemplate = ({ data: { mdx: post } }) => (
-  <Layout>
-    <div className="blog-post narrow text">
-      <PostBody>
-        <MDXRenderer>{post.body}</MDXRenderer>
-      </PostBody>
-    </div>
-  </Layout>
-)
+const MinimalPostTemplate = ({ data: { mdx: post }, pageContext }) => {
+  const { next, previous } = pageContext
+  console.log(next)
+  return (
+    <Layout>
+      <div className="blog-post narrow text">
+        <PostBody>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </PostBody>
+      </div>
+      <NextPost>
+        <div className="links">
+          {previous && (
+            <div className="previous">
+              <p>
+                <Link to={`/blog/${previous.frontmatter.slug}`}>
+                  Previous Post
+                </Link>
+              </p>
+              <Link to={`/blog/${previous.frontmatter.slug}`}>
+                {previous.frontmatter.title}
+              </Link>
+            </div>
+          )}
+          {next && (
+            <div className="next">
+              <p>
+                <Link to={`/blog/${next.frontmatter.slug}`}>Next Post</Link>
+              </p>
+              <Link to={`/blog/${next.frontmatter.slug}`}>
+                {next.frontmatter.title}
+              </Link>
+            </div>
+          )}
+        </div>
+      </NextPost>
+    </Layout>
+  )
+}
 
 const PostBody = styled.article`
   p {
@@ -31,6 +61,45 @@ const PostBody = styled.article`
       font-size: ${typeScale.paragraph};
       letter-spacing: 0.5px;
       vertical-align: text-bottom;
+    }
+  }
+`
+const NextPost = styled.div`
+  width: 760px;
+  @media (max-width: 800px) {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  margin: 0 auto;
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+  .next {
+    text-align: right;
+  }
+  .previous,
+  .next {
+    max-width: 180px;
+  }
+  p {
+    font-size: clamp(1rem, 1rem + 0.5vw, 1.25rem);
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    a {
+      color: var(--text-color);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+  a {
+    color: var(--text-color);
+    text-decoration-color: var(--link-color);
+    transition: all 0.4s;
+    &:hover {
+      color: var(--link-color);
+      text-decoration-color: var(--text-color-light);
     }
   }
 `

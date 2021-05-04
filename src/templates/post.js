@@ -25,6 +25,4 @@ const PostTemplate = ({ data: { mdx: post } }) => (
   </Layout>
 )
 
-
-
 export default PostTemplate

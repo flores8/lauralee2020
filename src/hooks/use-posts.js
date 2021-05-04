@@ -24,7 +24,7 @@ const usePosts = () => {
     }
   `)
 
-  return data.allMdx.nodes.map(post => ({
+  return data.allMdx.nodes.map((post) => ({
     title: post.frontmatter.title,
     description: post.frontmatter.description,
     slug: post.frontmatter.slug,

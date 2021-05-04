@@ -1,25 +1,12 @@
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const result = await graphql(`
     query {
-      allMdx {
-        edges {
-          next {
-            frontmatter {
-              title
-              slug
-            }
-          }
-          previous {
-            frontmatter {
-              title
-              slug
-            }
-          }
-        }
+      allMdx(sort: { order: ASC, fields: [frontmatter___date] }) {
         nodes {
           frontmatter {
             slug
             template
+            title
           }
         }
       }
@@ -32,15 +19,15 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const posts = result.data.allMdx.nodes
 
-  posts.forEach(post => {
+  posts.forEach((post, index) => {
     if (post.frontmatter.template === "minimal") {
       actions.createPage({
         path: `/blog/${post.frontmatter.slug}`,
         component: require.resolve("./src/templates/minimal-post.js"),
         context: {
           slug: `${post.frontmatter.slug}`,
-          next: `${post.next}`,
-          previous: `${post.previous}`,
+          next: index === [posts.length - 1] ? null : posts[index + 1],
+          previous: index === 0 ? null : posts[index - 1],
         },
       })
     } else {
@@ -49,8 +36,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         component: require.resolve("./src/templates/post.js"),
         context: {
           slug: `${post.frontmatter.slug}`,
-          next: `${post.next}`,
-          previous: `${post.previous}`,
+          next: `${index === posts.length - 1 ? null : posts[index + 1].node}`,
+          previous: index === 0 ? null : posts[index - 1].node,
         },
       })
     }
