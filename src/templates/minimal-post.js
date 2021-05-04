@@ -27,6 +27,14 @@ const MinimalPostTemplate = ({ data: { mdx: post }, pageContext }) => {
               </Link>
             </div>
           )}
+          {next ? null : (
+            <div className="next">
+              <p>
+                <Link to={`/blog`}>All Posts</Link>
+              </p>
+              <Link to={`/blog`}>Back to all posts</Link>
+            </div>
+          )}
           {previous && (
             <div className="previous">
               <p>
