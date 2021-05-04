@@ -17,25 +17,25 @@ const MinimalPostTemplate = ({ data: { mdx: post }, pageContext }) => {
       </div>
       <NextPost>
         <div className="links">
+          {next && (
+            <div className="next">
+              <p>
+                <Link to={`/blog/${next.frontmatter.slug}`}>Earlier Post</Link>
+              </p>
+              <Link to={`/blog/${next.frontmatter.slug}`}>
+                {next.frontmatter.title}
+              </Link>
+            </div>
+          )}
           {previous && (
             <div className="previous">
               <p>
                 <Link to={`/blog/${previous.frontmatter.slug}`}>
-                  Previous Post
+                  Later Post
                 </Link>
               </p>
               <Link to={`/blog/${previous.frontmatter.slug}`}>
                 {previous.frontmatter.title}
-              </Link>
-            </div>
-          )}
-          {next && (
-            <div className="next">
-              <p>
-                <Link to={`/blog/${next.frontmatter.slug}`}>Next Post</Link>
-              </p>
-              <Link to={`/blog/${next.frontmatter.slug}`}>
-                {next.frontmatter.title}
               </Link>
             </div>
           )}
@@ -76,7 +76,7 @@ const NextPost = styled.div`
     display: flex;
     justify-content: space-between;
   }
-  .next {
+  .previous {
     text-align: right;
   }
   .previous,
