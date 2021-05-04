@@ -44,10 +44,9 @@ const About = () => (
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - I'm
-            working with a colleague to build a platform for companies who want
-            a modern online UX research tool. It's geared towards helping
-            companies make better product decisions that will delight their
-            audience.
+            working with a colleague to build remote user research tools. Tools
+            like usability studies, surveys, card sorts. That sort of thing.
+            It's geared toward getting answer and insights quickly.
           </li>
           <li>
             <Link to="https://www.cssacademy.com/">CSS Academy</Link> - I love
