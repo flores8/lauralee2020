@@ -93,8 +93,8 @@ const NextPost = styled.div`
   }
   p {
     font-size: clamp(1rem, 1rem + 0.5vw, 1.25rem);
-    margin-bottom: 0.5rem;
-    margin-top: 2rem;
+    margin-block-end: 0.5rem;
+    margin-block-start: 2rem;
     a {
       color: var(--text-color);
       text-decoration: none;
