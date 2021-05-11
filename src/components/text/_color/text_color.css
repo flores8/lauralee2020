@@ -1,4 +1,5 @@
 :root {
+  --white: hsla(255, 0%, 100%, 1);
   --text-color-dark: hsla(228, 2%, 20%, 1);
   --text-color: hsla(228, 2%, 40%, 1);
   --text-color-light: hsla(228, 2%, 80%, 1);

@@ -1,6 +1,12 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
+}
+::selection {
+  color: var(--white);
+  background: var(--link-color);
 }
