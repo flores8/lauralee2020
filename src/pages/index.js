@@ -16,10 +16,10 @@ const IndexPage = () => {
           <p class="home-content__text text">
             Currently working at{" "}
             <a
-              href="https://www.cssacademy.com/"
+              href="https://www.hecpartners.com/"
               class="link link--move-up text-link-wrapper"
             >
-              CSS Academy
+              HEC Partners
             </a>{" "}
             and{" "}
             <a
