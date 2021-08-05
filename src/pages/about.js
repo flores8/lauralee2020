@@ -30,8 +30,8 @@ const About = () => (
         <p>
           I have been designing and creating software for the past decade. I
           absolutely love it. I'm pretty excited about two new projects I'm
-          working on <Link to="https://www.cssacademy.com/">CSS Academy</Link>{" "}
-          and <Link to="https://www.empathetic.io/">Empathetic</Link>.
+          working on <Link to="https://www.empathetic.io/">Empathetic</Link> and{" "}
+          <Link to="https://www.cssacademy.com/">CSS Academy</Link> .
         </p>
         <h3>Where you can find me around the internet</h3>
         <ul>
@@ -41,6 +41,14 @@ const About = () => (
             post, take a look at the image.{" "}
             <Link to="/blog/quality-vs-quantity">This one was super fun</Link>.{" "}
             <Link to="/blog/embrace-the-difficult">So was this one</Link>.
+          </li>
+          <li>
+            <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
+            Colleges and Universities have a lot of laws around Financial Aid.
+            At HEC we help them navigate those tricky waters. I am the
+            technology person (think websites, online trainings, etc.) as well
+            as the project manager behind the incredibly smart and accomplished
+            women I work with.
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - I'm

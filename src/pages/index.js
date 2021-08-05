@@ -10,7 +10,7 @@ const IndexPage = () => {
       <div class="home-content">
         <div class="home-content__left-two-thirds">
           <h1 class="home-content__headline text">
-            Hi, I’m Lauralee, a Product Designer in Arizona. I am passionate
+            Hi, I’m Lauralee, an Entrepreneur in Arizona. I am passionate
             about creating desirable, beautiful products.
           </h1>
           <p class="home-content__text text">
