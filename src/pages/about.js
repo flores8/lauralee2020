@@ -12,8 +12,8 @@ const About = () => (
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
-          Product designer. Front-end developer. Usability professional.
-          Entrepreneur.
+          Project manager. Product designer. Front-end developer. Usability
+          professional. Entrepreneur.
         </h1>
       </div>
       <div
@@ -30,8 +30,8 @@ const About = () => (
         <p>
           I have been designing and creating software for the past decade. I
           absolutely love it. I'm pretty excited about two new projects I'm
-          working on <Link to="https://www.empathetic.io/">Empathetic</Link> and{" "}
-          <Link to="https://www.cssacademy.com/">CSS Academy</Link> .
+          working on <Link to="https://www.hecpartners.com/">HEC Partners</Link>{" "}
+          and <Link to="https://www.empathetic.io/">Empathetic</Link> .
         </p>
         <h3>Where you can find me around the internet</h3>
         <ul>
@@ -74,12 +74,12 @@ const About = () => (
         <h3>Books that have changed me and the way I work</h3>
         <p>
           I love to read and learn. I'm currently reading{" "}
-          <Link to="https://rosenfeldmedia.com/books/jobs-to-be-done-book/">
-            The Jobs to be Done Playbook
+          <Link to="https://www.pmi.org/pmbok-guide-standards/foundational/PMBOK">
+            PMBOK Guide
           </Link>{" "}
           and{" "}
-          <Link to="http://www.whencoffeeandkalecompete.com/">
-            When Coffee & Kale Compete
+          <Link to="https://rosenfeldmedia.com/books/jobs-to-be-done-book/">
+            The Jobs to be Done Playbook
           </Link>{" "}
           . Here are a few books that have changed me:
           <ul>
