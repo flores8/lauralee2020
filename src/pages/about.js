@@ -12,8 +12,8 @@ const About = () => (
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
         <h1>
-          Project manager. Product designer. Front-end developer. Usability
-          professional. Entrepreneur.
+          Product manager. Entrepreneur. Usability professional. Product
+          designer. Front-end developer.
         </h1>
       </div>
       <div
@@ -29,9 +29,13 @@ const About = () => (
       <div className="skinny-wrapper text">
         <p>
           I have been designing and creating software for the past decade. I
-          absolutely love it. I'm pretty excited about two new projects I'm
-          working on <Link to="https://www.hecpartners.com/">HEC Partners</Link>{" "}
-          and <Link to="https://www.empathetic.io/">Empathetic</Link> .
+          absolutely love it. I started my career with a graduate degree in
+          Human-Computer Interaction where I was a user researcher and
+          eventually ran user research teams. Design is so incredibly integral
+          to the user experience. So, I began focusing on product design and UX.
+          During this time I learned to code beginning with Ruby on Rails and
+          Javascript. In the last few years, all my experience and knowledge has
+          culminated to turn my focus to overall product success.
         </p>
         <h3>Where you can find me around the internet</h3>
         <ul>
@@ -45,23 +49,22 @@ const About = () => (
           <li>
             <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
             Colleges and Universities have a lot of laws around Financial Aid.
-            At HEC we help them navigate those tricky waters. I am the
-            technology person (think websites, online trainings, etc.) as well
-            as the project manager behind the incredibly smart and accomplished
-            women I work with.
+            At HEC we help them navigate those tricky waters. I am the design
+            and tech person: think websites, online trainings, marketing
+            material, etc. I am also the project manager ensuring each contract
+            is within scope, budget, and time. And my favorite role is product
+            manager: understanding the market, the players, and discovering
+            interesting and innovative solutions to our client's problems.
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - I'm
-            working with a colleague to build remote user research tools. Tools
-            like usability studies, surveys, card sorts. That sort of thing.
-            It's geared toward getting answer and insights quickly.
-          </li>
-          <li>
-            <Link to="https://www.cssacademy.com/">CSS Academy</Link> - I love
-            CSS. I am constantly learning and improving my CSS skills. I wanted
-            a place to store it all and share it with others. It's really geared
-            toward designers and developers who want to learn or improve their
-            CSS skills as well.
+            working with a colleague to build remote user research tools. We are
+            currently in the midst of a huge pivot so the website might not
+            reflect how awesome this product is going to be. I can't wait for
+            you to see what we're up to. If you work on the product or user
+            experience for a company please email me (lauralee at
+            lauraleeflores.com). I would love your advice and input and would
+            put you first in line to get your hands on it. 😉
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
