@@ -11,7 +11,7 @@ const About = () => (
     <div className="about">
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
-        <h1>Product manager. Product Designer. Usability professional.</h1>
+        <h1>Product manager. Product designer. Usability professional.</h1>
       </div>
       <div
         style={{
@@ -30,7 +30,7 @@ const About = () => (
           Human-Computer Interaction where I was a user researcher and
           eventually ran a user research team. Design is so incredibly integral
           to the user experience. So, I began focusing on product design and UX.
-          During this time I learned to code beginning with Ruby on Rails and
+          Around this time I learned to code beginning with Ruby on Rails and
           Javascript. In the last few years, all my experience and knowledge has
           culminated to turn my focus to overall product success.
         </p>
