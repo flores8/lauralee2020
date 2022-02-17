@@ -13,7 +13,7 @@
 }
 @media (min-width: 845px) {
   .home-content__left-two-thirds {
-    width: 65%;
+    width: 70%;
     text-align: left;
   }
 }
@@ -42,5 +42,4 @@
   }
 }
 .home-content__link {
-
 }

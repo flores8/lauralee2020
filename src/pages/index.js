@@ -10,8 +10,8 @@ const IndexPage = () => {
       <div class="home-content">
         <div class="home-content__left-two-thirds">
           <h1 class="home-content__headline text">
-            Hi, I’m Lauralee, an Entrepreneur in Switzerland. I am passionate
-            about creating desirable, beautiful products.
+            Hi, I’m Lauralee, a product person living in Switzerland. I am
+            passionate about creating desirable, beautiful products.
           </h1>
           <p class="home-content__text text">
             Currently working at{" "}

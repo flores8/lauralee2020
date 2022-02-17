@@ -11,10 +11,7 @@ const About = () => (
     <div className="about">
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
-        <h1>
-          Product manager. Entrepreneur. Usability professional. Product
-          designer. Front-end developer.
-        </h1>
+        <h1>Product manager. Product Designer. Usability professional.</h1>
       </div>
       <div
         style={{
@@ -28,10 +25,10 @@ const About = () => (
       </div>
       <div className="skinny-wrapper text">
         <p>
-          I have been designing and creating software for the past decade. I
+          I have been designing and creating software for nearly two decades. I
           absolutely love it. I started my career with a graduate degree in
           Human-Computer Interaction where I was a user researcher and
-          eventually ran user research teams. Design is so incredibly integral
+          eventually ran a user research team. Design is so incredibly integral
           to the user experience. So, I began focusing on product design and UX.
           During this time I learned to code beginning with Ruby on Rails and
           Javascript. In the last few years, all my experience and knowledge has
@@ -49,38 +46,30 @@ const About = () => (
           <li>
             <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
             Colleges and Universities have a lot of laws around Financial Aid.
-            At HEC we help them navigate those tricky waters. I am the design
-            and tech person: think websites, online trainings, marketing
-            material, etc. I am also the project manager ensuring each contract
-            is within scope, budget, and time. And my favorite role is product
-            manager: understanding the market, the players, and discovering
-            interesting and innovative solutions to our client's problems.
+            At HEC we help them navigate those tricky waters. My primary role is
+            project and product management, product positioning, branding, and
+            productizing our services. I ensure that completed work is within
+            scope, within budget, and on-time.
           </li>
           <li>
-            <Link to="https://www.empathetic.io/">Empathetic</Link> - I'm
-            working with a colleague to build remote user research tools. We are
-            currently in the midst of a huge pivot so the website might not
-            reflect how awesome this product is going to be. I can't wait for
-            you to see what we're up to. If you work on the product or user
-            experience for a company please email me (lauralee at
-            lauraleeflores.com). I would love your advice and input and would
-            put you first in line to get your hands on it. 😉
+            I have a side project I'm pretty excited about. I'll share more
+            details here as we get closer. I can't wait for you to see what
+            we're up to. If you work on the product or user experience for a
+            company please email me (lauralee at lauraleeflores.com). I would
+            love your advice and input and would put you first in line to get
+            your hands on it. 😉
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
-            my design work up there. To be honest, I'm not great about
-            remembering to take time to share my design work. But, when I do
-            that's where I do it. If you're on dribbble I'd love to connect with
-            you there.
+            my design work up there. However, I'm not great about remembering to
+            take time to share my design work. But, when I do that's where I do
+            it. If you're on dribbble I'd love to connect with you there.
           </li>
         </ul>
         <h3>Books that have changed me and the way I work</h3>
         <p>
           I love to read and learn. I'm currently reading{" "}
-          <Link to="https://www.pmi.org/pmbok-guide-standards/foundational/PMBOK">
-            PMBOK Guide
-          </Link>{" "}
-          and{" "}
+          <Link to="https://basecamp.com/shapeup">Shape Up</Link> and{" "}
           <Link to="https://rosenfeldmedia.com/books/jobs-to-be-done-book/">
             The Jobs to be Done Playbook
           </Link>{" "}
