@@ -14,19 +14,12 @@ const IndexPage = () => {
             passionate about creating desirable, beautiful products.
           </h1>
           <p class="home-content__text text">
-            Currently working at{" "}
+            Currently working remotely at{" "}
             <a
               href="https://www.hecpartners.com/"
               class="link link--move-up text-link-wrapper"
             >
               HEC Partners
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.empathetic.io/"
-              class="link link--move-up text-link-wrapper"
-            >
-              Empathetic
             </a>
             .
           </p>
