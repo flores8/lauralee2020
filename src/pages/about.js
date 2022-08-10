@@ -48,16 +48,16 @@ const About = () => (
             Colleges and Universities have a lot of laws around Financial Aid.
             At HEC we help them navigate those tricky waters. My primary role is
             project and product management, product positioning, branding, and
-            productizing our services. I ensure that completed work is within
-            scope, within budget, and on-time.
+            productizing our services.
           </li>
           <li>
-            I have a side project I'm pretty excited about. I'll share more
-            details here as we get closer. I can't wait for you to see what
-            we're up to. If you work on the product or user experience for a
-            company please email me (lauralee at lauraleeflores.com). I would
-            love your advice and input and would put you first in line to get
-            your hands on it. 😉
+            <Link to="https://www.empathetic.io/">Empathetic</Link> - my
+            co-founder and I are creating a user research platform for modern
+            product teams. Think research repository, participant management,
+            and micro-surveys. It is meant to be a lightweight, continuous user
+            research system that allows you to keep your customer at the center
+            of all you do and truly understand them so that you can create
+            products they love.
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
@@ -68,10 +68,9 @@ const About = () => (
         </ul>
         <h3>Books that have changed me and the way I work</h3>
         <p>
-          I love to read and learn. I'm currently reading{" "}
-          <Link to="https://basecamp.com/shapeup">Shape Up</Link> and{" "}
-          <Link to="https://rosenfeldmedia.com/books/jobs-to-be-done-book/">
-            The Jobs to be Done Playbook
+          I love to read and learn. I'm currently re-reading{" "}
+          <Link to="https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309">
+            Continuous Discovery Habits
           </Link>{" "}
           . Here are a few books that have changed me:
           <ul>
@@ -96,9 +95,9 @@ const About = () => (
               <Link to="https://jamesclear.com/book-summaries/the-compound-effect">
                 The Compound Effect
               </Link>{" "}
-              - this is a book about the fundamentals of success. It is the
-              solid foundation for anyone who wants to achieve their goals. It's
-              a book about consistency.
+              - this is a book about the fundamentals of success. It is a solid
+              foundation for anyone who wants to achieve their goals. It's a
+              book about consistency.
             </li>
             <li>
               <Link to="https://www.elizabethgilbert.com/books/big-magic/">

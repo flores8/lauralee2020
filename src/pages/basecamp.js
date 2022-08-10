@@ -18,7 +18,6 @@ const Basecamp = () => {
         <Title>Hi, I'm Lauralee</Title>
         <Subtitle>
           Product designer. Front-end developer. Usability professional.
-          Entrepreneur.
         </Subtitle>
         <Half>
           <Left>

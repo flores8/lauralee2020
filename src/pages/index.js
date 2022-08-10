@@ -10,7 +10,7 @@ const IndexPage = () => {
       <div class="home-content">
         <div class="home-content__left-two-thirds">
           <h1 class="home-content__headline text">
-            Hi, I’m Lauralee, a product person living in Switzerland. I am
+            Hi, I’m Lauralee, a product person living in Arizona. I am
             passionate about creating usable, desirable, and beautiful products.
           </h1>
           <p class="home-content__text text">
@@ -20,6 +20,13 @@ const IndexPage = () => {
               class="link link--move-up text-link-wrapper"
             >
               HEC Partners
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.empathetic.io/"
+              class="link link--move-up text-link-wrapper"
+            >
+              Empathetic
             </a>
             .
           </p>
