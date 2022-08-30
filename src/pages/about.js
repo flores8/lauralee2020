@@ -45,8 +45,11 @@ const About = () => (
           </li>
           <li>
             <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
-            Colleges and Universities have a lot of laws set forth by the federal government, particularly in relation to financial aid.
-            At HEC we help them navigate those tricky waters. My primary role is in helping identify, design, and create products based on the needs and problems of our clients.
+            Colleges and Universities have a lot of laws set forth by the
+            federal government, particularly in relation to financial aid. At
+            HEC we help them navigate those tricky waters. My primary role is in
+            helping identify, design, and create products based on the needs and
+            problems of our clients.
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - my
@@ -58,10 +61,15 @@ const About = () => (
             products they love.
           </li>
           <li>
+            <Link to="https://www.noomga.com/">Noomga</Link> - as a knowledge
+            worker, focus time is precious. This is a tool to help you plan out
+            your day and ensure you're using your precious time effectively. 
+          </li>
+          <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
             my design work up there. However, I'm not great about remembering to
-            take time to share my designs. But, when I do that's where I do
-            it. If you're on dribbble I'd love to connect with you there.
+            take time to share my designs. But, when I do that's where I do it.
+            If you're on dribbble I'd love to connect with you there.
           </li>
         </ul>
         <h3>Books that have changed me and the way I work</h3>
