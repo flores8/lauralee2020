@@ -11,7 +11,7 @@ const About = () => (
     <div className="about">
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
         <h6>HI I’M LAURALEE</h6>
-        <h1>Product manager. Product designer. Usability professional.</h1>
+        <h1>Product designer and usability professional.</h1>
       </div>
       <div
         style={{
@@ -45,10 +45,8 @@ const About = () => (
           </li>
           <li>
             <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
-            Colleges and Universities have a lot of laws around Financial Aid.
-            At HEC we help them navigate those tricky waters. My primary role is
-            project and product management, product positioning, branding, and
-            productizing our services.
+            Colleges and Universities have a lot of laws set forth by the federal government, particularly in relation to financial aid.
+            At HEC we help them navigate those tricky waters. My primary role is in helping identify, design, and create products based on the needs and problems of our clients.
           </li>
           <li>
             <Link to="https://www.empathetic.io/">Empathetic</Link> - my
@@ -62,7 +60,7 @@ const About = () => (
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
             my design work up there. However, I'm not great about remembering to
-            take time to share my design work. But, when I do that's where I do
+            take time to share my designs. But, when I do that's where I do
             it. If you're on dribbble I'd love to connect with you there.
           </li>
         </ul>
