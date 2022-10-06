@@ -63,7 +63,7 @@ const About = () => (
           <li>
             <Link to="https://www.noomga.com/">Noomga</Link> - as a knowledge
             worker, focus time is precious. This is a tool to help you plan out
-            your day and ensure you're using your precious time effectively. 
+            your day and ensure you're using your precious time effectively.   
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
