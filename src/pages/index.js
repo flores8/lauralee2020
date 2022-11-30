@@ -16,17 +16,10 @@ const IndexPage = () => {
           <p class="home-content__text text">
             Currently working remotely at{" "}
             <a
-              href="https://www.hecpartners.com/"
+              href="https://wandb.ai/site"
               class="link link--move-up text-link-wrapper"
             >
-              HEC Partners
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.empathetic.io/"
-              class="link link--move-up text-link-wrapper"
-            >
-              Empathetic
+              Weights & Biases
             </a>
             .
           </p>
