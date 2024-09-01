@@ -44,26 +44,13 @@ const About = () => (
             <Link to="/blog/embrace-the-difficult">So was this one</Link>.
           </li>
           <li>
-            <Link to="https://www.hecpartners.com/">HEC Partners</Link> -
-            Colleges and Universities have a lot of laws set forth by the
-            federal government, particularly in relation to financial aid. At
-            HEC we help them navigate those tricky waters. My primary role is in
-            helping identify, design, and create products based on the needs and
-            problems of our clients.
-          </li>
-          <li>
-            <Link to="https://www.empathetic.io/">Empathetic</Link> - my
-            co-founder and I are creating a user research platform for modern
-            product teams. Think research repository, participant management,
-            and micro-surveys. It is meant to be a lightweight, continuous user
-            research system that allows you to keep your customer at the center
-            of all you do and truly understand them so that you can create
-            products they love.
-          </li>
-          <li>
             <Link to="https://www.noomga.com/">Noomga</Link> - as a knowledge
             worker, focus time is precious. This is a tool to help you plan out
-            your day and ensure you're using your precious time effectively.   
+            your day and ensure you're using your precious time effectively.
+          </li>
+          <li>
+            <Link to="https://www.lauralee.work/">My portfolio</Link> - a few of
+            the projects I've worked on over the years.
           </li>
           <li>
             <Link to="http://lauralee.design/">Dribbble</Link> - I have some of

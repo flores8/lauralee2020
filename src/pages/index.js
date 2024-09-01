@@ -10,19 +10,10 @@ const IndexPage = () => {
       <div class="home-content">
         <div class="home-content__left-two-thirds">
           <h1 class="home-content__headline text">
-            Hi, I’m Lauralee, a product person living in Arizona. I am
-            passionate about creating usable, desirable, and beautiful products.
+            Hi 👋 I’m Lauralee, a product designer with 10+ years of experience
+            designing, building, and creating. I currently design at Weights &
+            Biases.
           </h1>
-          <p class="home-content__text text">
-            Currently working remotely at{" "}
-            <a
-              href="https://wandb.ai/site"
-              class="link link--move-up text-link-wrapper"
-            >
-              Weights & Biases
-            </a>
-            .
-          </p>
         </div>
       </div>
     </Layout>
