@@ -47,6 +47,12 @@
   grid-gap: 2rem;
   margin-bottom: 4rem;
 }
+@media (max-width: 640px) {
+  .home-content__resume {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+}
 .home-content__resume-title {
   font-weight: bold;
   font-size: 1.2rem;
@@ -69,5 +75,10 @@
       font-style: italic;
       display: block;
     }
+  }
+}
+@media (max-width: 640px) {
+  .home-content__resume-job {
+    margin-bottom: 2rem;
   }
 }

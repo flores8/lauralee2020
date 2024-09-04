@@ -12,6 +12,9 @@ const Footer = () => (
         </a>
       </div>
       <div className="link-wrapper">
+        <a href="http://lauralee.work/">Portfolio</a>
+      </div>
+      <div className="link-wrapper">
         <a href="http://lauralee.design/">Dribbble</a>
       </div>
       <div className="link-wrapper">

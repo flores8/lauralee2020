@@ -20,13 +20,27 @@ footer .copyright {
 }
 footer .online-presence {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(4, 100px);
   text-align: right;
   font-size: 12px;
 }
 @media screen and (min-width: 320px) {
   footer .online-presence {
     font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+  }
+  footer .copyright {
+    text-align: center;
+  }
+  footer .online-presence {
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media screen and (min-width: 1000px) {
