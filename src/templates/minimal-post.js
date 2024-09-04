@@ -81,15 +81,12 @@ const NextPost = styled.div`
   }
   margin: 0 auto;
   .links {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
   }
   .previous {
     text-align: right;
-  }
-  .previous,
-  .next {
-    max-width: 180px;
   }
   p {
     font-size: clamp(1rem, 1rem + 0.5vw, 1.25rem);
@@ -113,7 +110,7 @@ const NextPost = styled.div`
 `
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     mdx(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         title
