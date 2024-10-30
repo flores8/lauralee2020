@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="copyright">© {new Date().getFullYear()}</div>
     <div className="online-presence">
       <div className="link-wrapper">
-        <a href="https://lauraleeflores.s3.amazonaws.com/lauralee-flores-resume-08-2024.pdf">
+        <a href="https://lauraleeflores.s3.amazonaws.com/lauralee-flores-resume.pdf">
           Resume
         </a>
       </div>
