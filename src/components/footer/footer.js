@@ -7,15 +7,15 @@ const Footer = () => (
     <div className="copyright">© {new Date().getFullYear()}</div>
     <div className="online-presence">
       <div className="link-wrapper">
-        <a href="https://lauraleeflores.s3.amazonaws.com/lauralee-flores-resume.pdf">
+        {/* <a href="https://lauraleeflores.s3.amazonaws.com/lauralee-flores-resume.pdf">
           Resume
-        </a>
+        </a> */}
       </div>
       <div className="link-wrapper">
-        <a href="http://lauralee.work/">Portfolio</a>
+        {/* <a href="http://lauralee.work/">Portfolio</a> */}
       </div>
       <div className="link-wrapper">
-        <a href="http://lauralee.design/">Dribbble</a>
+        {/* <a href="http://lauralee.design/">Dribbble</a> */}
       </div>
       <div className="link-wrapper">
         <a href="https://www.linkedin.com/in/lauraleeflores/">LinkedIn</a>
