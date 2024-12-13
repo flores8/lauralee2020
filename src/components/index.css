@@ -24,7 +24,7 @@
   font-weight: bold;
 }
 .home-content__subheadline {
-  margin-bottom: 1rem;
+  margin-bottom: 1.75rem;
   line-height: 1.5;
 }
 .home-content__text {
@@ -44,4 +44,12 @@
   .home-content__text {
     font-size: 20px;
   }
+}
+.home-content__link {
+  color: var(--text-color);
+  text-decoration-color: var(--link-color);
+  transition: color 0.4s;
+}
+.home-content__link:hover {
+  color: var(--link-color);
 }

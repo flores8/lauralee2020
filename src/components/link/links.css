@@ -51,3 +51,6 @@ a.text-link-wrapper:hover {
   color: hsla(228, 2%, 40%, 1);
   background-size: 4px 50px;
 }
+a.text-size {
+  font-size: clamp(18px, calc(16px + 1vw), 24px);
+}

@@ -36,40 +36,34 @@
 
 .about h3 {
   font-size: clamp(1.33rem, 1rem + 1.3vw, 1.77rem);
+  margin-top: 4rem;
+}
+.about ul {
+  margin-left: 2.5rem;
 }
 .about li {
-  line-height: 1.5;
-  font-size: clamp(.75rem, .5rem + .9vw, 1rem);
+  line-height: 1.6;
+  /* font-size: clamp(0.75rem, 0.5rem + 0.9vw, 1rem); */
 }
 .about ul > li:first-child {
-  margin-top: .5rem;
+  margin-top: 1rem;
 }
 
 .about p {
   line-height: 1.7;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
-  font-size: 16px;
-}
-@media screen and (min-width: 320px) {
-  .about p {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  .about p {
-    font-size: 20px;
-  }
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: clamp(18px, calc(16px + 1vw), 24px);
 }
 
 .about .quote {
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 0;
-  font-size: clamp(1rem, 1rem + .6vw, 1.33rem);
+  font-size: clamp(1rem, 1rem + 0.6vw, 1.33rem);
 }
 
 .about .reference {
-  text-align: center;
+  /* text-align: center; */
   font-style: italic;
   color: hsla(228, 4%, 60%, 1);
   margin-top: 0;

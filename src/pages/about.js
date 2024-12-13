@@ -10,13 +10,12 @@ const About = () => (
     <Seo title="About" />
     <div className="about">
       <div className="wide-wrapper text" style={{ textAlign: "center" }}>
-        <h6>HI I’M LAURALEE</h6>
-        <h1>Product designer and usability professional.</h1>
+        <h1>AI is Changing How We Create (And I'm Here For It)</h1>
       </div>
       <div
         style={{
           maxWidth: `715px`,
-          marginBottom: `1.45rem`,
+          marginBottom: `3rem`,
           marginRight: `auto`,
           marginLeft: `auto`,
         }}
@@ -24,136 +23,63 @@ const About = () => (
         <Image />
       </div>
       <div className="skinny-wrapper text">
+        <p>I'll never forget the first time I used AI to create an image.</p>
         <p>
-          I have been designing and creating software for nearly two decades. I
-          absolutely love it. I started my career with a graduate degree in
-          Human-Computer Interaction where I was a user researcher and
-          eventually ran a user research team. Design is so incredibly integral
-          to the user experience. So, I began focusing on product design and UX.
-          Around this time I learned to code beginning with Ruby on Rails and
-          Javascript. In the last few years, all my experience and knowledge has
-          culminated to turn my focus to overall product success.
+          With just a few words describing my vision, I watched as an image
+          materialized before my eyes—something uniquely beautiful, generated in
+          seconds. In that moment, I realized everything I knew about creative
+          work was about to change.
         </p>
-        <h3>Where you can find me around the internet</h3>
-        <ul>
-          <li>
-            Here of course. With each <Link to="/blog">blog post</Link> I try to
-            design an image to go along with it. Even if you don't read the
-            post, take a look at the image.{" "}
-            <Link to="/blog/quality-vs-quantity">This one was super fun</Link>.{" "}
-            <Link to="/blog/embrace-the-difficult">So was this one</Link>.
-          </li>
-          <li>
-            <Link to="https://www.noomga.com/">Noomga</Link> - as a knowledge
-            worker, focus time is precious. This is a tool to help you plan out
-            your day and ensure you're using your precious time effectively.
-          </li>
-          <li>
-            <Link to="https://www.lauralee.work/">My portfolio</Link> - a few of
-            the projects I've worked on over the years.
-          </li>
-          <li>
-            <Link to="http://lauralee.design/">Dribbble</Link> - I have some of
-            my design work up there. However, I'm not great about remembering to
-            take time to share my designs. But, when I do that's where I do it.
-            If you're on dribbble I'd love to connect with you there.
-          </li>
-        </ul>
-        <h3>Books that have changed me and the way I work</h3>
         <p>
-          I love to read and learn. I'm currently re-reading{" "}
-          <Link to="https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309">
-            Continuous Discovery Habits
-          </Link>{" "}
-          . Here are a few books that have changed me:
+          As a product designer with over 15 years of experience, I'd spent my
+          career mastering professional creative tools. But this was different.
+          This wasn't just another tool—it was a revolution that would make
+          creative expression accessible to everyone, regardless of their
+          technical skills.
+        </p>
+        <p>
+          Now, as a Staff Product Designer at Weights & Biases, I have a
+          front-row seat to this transformation. Here's what excites me most
+          about where we're heading:
           <ul>
             <li>
-              <Link to="https://www.calnewport.com/books/deep-work/">
-                Deep Work
-              </Link>{" "}
-              - this is a book about performing your best work intentionally. It
-              changed the way I schedule and do my work. If you are not already
-              working deeply, I truly believe that you would benefit from
-              following the advice in this book.
+              <strong>We're breaking creative barriers:</strong> I'm watching AI
+              tools help both seasoned designers and complete beginners bring
+              their ideas to life. The gap between vision and execution is
+              shrinking daily.
             </li>
             <li>
-              <Link to="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI">
-                Man's Search for Meaning
-              </Link>{" "}
-              - probably the most beautiful book I have ever read. It changed
-              the way I view my freedom and my attitude. It is inspiring and
-              incredibly insightful.
+              <strong>Our creative process is evolving: </strong>Every week
+              brings new tools that change how we approach design and
+              creativity. We're only just scratching the surface!
             </li>
             <li>
-              <Link to="https://jamesclear.com/book-summaries/the-compound-effect">
-                The Compound Effect
-              </Link>{" "}
-              - this is a book about the fundamentals of success. It is a solid
-              foundation for anyone who wants to achieve their goals. It's a
-              book about consistency.
-            </li>
-            <li>
-              <Link to="https://www.elizabethgilbert.com/books/big-magic/">
-                Big Magic
-              </Link>{" "}
-              - a book on creativity. That might sound boring but I promise you
-              this book is anything but boring. If you are a creator or want to
-              be this book is worth your time. I especially love to{" "}
-              <Link to="https://www.audible.com/pd/Big-Magic-Audiobook/B00U0CAEB8?qid=1603126146&sr=1-1&ref=a_search_c3_lProduct_1_1&pf_rd_p=e81b7c27-6880-467a-b5a7-13cef5d729fe&pf_rd_r=DPD2CFXPGEVB6G6JP5R1">
-                listening to Elizabeth Gilbert narrate it
-              </Link>
-              . Sometimes I hope the book will never end.
-            </li>
-            <li>
-              <Link to="https://basecamp.com/books/calm">
-                It Doesn't Have to Be Crazy at Work
-              </Link>{" "}
-              - this book showed me what work could actually be like. I was so
-              used to it being one way I never considered it could be different.
-              This book opened my eyes not only to work but to myself.
-            </li>
-            <li>
-              <Link to="https://austinkleon.com/steal/">
-                Steal Like an Artist
-              </Link>{" "}
-              - when I first started designing I needed this book. It's another
-              book about creativity. It's short and so good.
+              <strong>We're learning together: </strong>The field is moving so
+              quickly that everyone, from experts to beginners, is discovering
+              and adapting together.
             </li>
           </ul>
         </p>
-
-        <h3>A few of my favorite quotes</h3>
-
+        {/* <p>→ [Get my free guide: "5 Essential AI Tools for Creative Work"]</p> */}
         <p>
-          I really love quotes so it's hard to narrow it down but here are a few
-          that impact me each time I read them.
+          As I explore this new creative landscape, I'm documenting everything:
+          the breakthroughs, the setbacks, and the unexpected discoveries.
+          You'll find practical tutorials, behind-the-scenes looks at my
+          AI-powered design work, and step-by-step guides for specific creative
+          tasks.
         </p>
-      </div>
-      <div className="wide-wrapper text">
-        <p className="quote">
-          “The master has failed more times than the beginner has even tried.”
+
+        <p>Want to follow along? Here's how to join me on this journey:</p>
+        <p>
+          ✨Follow me on{" "}
+          <a href="https://www.linkedin.com/in/lauraleeflores/">LinkedIn</a> for
+          tips, tool reviews, and quick tutorials
         </p>
-        <p className="reference">Stephen McCranie</p>
-        <p className="quote">
-          “We who lived in the concentration camps can remember the men who
-          walked through the huts comforting others, giving away their last
-          piece of bread. They may have been few in number, but they offer
-          sufficient proof that everything can be taken from a man but one
-          thing: the last of the human freedoms--to choose one's attitude in any
-          given set of circumstances, to choose one's own way.”
-        </p>
-        <p className="reference">Viktor E. Frankl</p>
-        <p className="quote">
-          "The secret to winning is learning how to lose. That is, learning to
-          bounce back from failure and disappointment—undeterred—and continuing
-          to steadily march toward your potential. Your response to failure
-          determines your capacity for success."
-        </p>
-        <p className="reference">James Clear</p>
-        <p className="quote">
-          “A year from now, you’ll wish you had started today.”
-        </p>
-        <p className="reference">Karen Lamb</p>
+        {/* <p>💌 Get detailed guides straight to your inbox [Subscribe →]</p>
+        <p>
+          🔍 Start now: Download "5 Essential AI Tools for Creative Work" and
+          start exploring these tools today [Download Free Guide →]
+        </p> */}
       </div>
     </div>
   </Layout>

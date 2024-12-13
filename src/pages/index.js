@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../components/index.css"
@@ -9,14 +10,16 @@ const IndexPage = () => {
       <Seo title="Home" />
       <div class="home-content">
         <h1 class="home-content__headline text">
-          Hi 👋 I’m Lauralee, and I can help you use AI to do creative work in
-          half the time.
+          Hi 👋 I’m Lauralee, a product designer diving deep into AI for
+          creative work. I'm sharing what I learn along the way.
         </h1>
-        <div class="home-content__left-two-thirds">
-          <h2 class="home-content__subheadline text">
-            Zero creative skills required ✨
-          </h2>
-        </div>
+        <h2 class="home-content__subheadline text">
+          Join me in making something beautiful - zero creative experience
+          required ✨
+        </h2>
+        <Link to="/about" className="text-link-wrapper text-size">
+          Learn more →
+        </Link>
       </div>
     </Layout>
   )
